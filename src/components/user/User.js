@@ -3,12 +3,12 @@ import Company from "./company/Company";
 export default function User({id,name,username,email,phone,website,address,company}) {
     return (
         <div className={"user"}>
-            <h3>{id}</h3>
-            <h3>{name}</h3>
-            <h3>{username}</h3>
-            <h3>{email}</h3>
-            <h3>{phone}</h3>
-            <h3>{website}</h3>
+            <h3>id : {id}</h3>
+            <h3>name : {name}</h3>
+            <h3>username : {username}</h3>
+            <h3>email : {email}</h3>
+            <h3>phone : {phone}</h3>
+            <h3>website : {website}</h3>
             <Address
                 street={address.street}
                 suite={address.suite}
